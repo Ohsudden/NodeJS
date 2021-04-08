@@ -2,21 +2,24 @@
   "name": "hello",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ohsudden/Volodimir Vishnevetskiy",
   "license": "ISC",
-  "keywords":[
+  "keywords": [
     "node",
     "js",
     "project"
   ],
   "homepage": "https://github.com/Ohsudden/NodeJS.git",
-  "description":"First project with NodeJS",
+  "description": "First project with NodeJS",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ohsudden/NodeJS.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
